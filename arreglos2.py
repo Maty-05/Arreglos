@@ -1,11 +1,11 @@
 
 playlistdelCurso = [
-    "Beat-it.mp3",
-    "Loba.mp3",
-    "15B.mp3",
-    "Diva virtual.mp3",
-    "Pokemon johtho.mp3",
-    "Pokemon kanto.mp3",
+    "Beat_it",
+    "Loba",
+    "15B",
+    "Diva_v",
+    "Pokemon_j",
+    "Pokemon_k",
 ]
 
 print(playlistdelCurso)
@@ -20,14 +20,8 @@ print("El tamaño del arreglo es:", tamaño)
 print("#####---La ultima cancion es:---#####")
 print(playlistdelCurso[tamaño - 1])
 
-print("imprimir todas las letras de una palabra")
-palabra = "GirafariG"
-for letra in palabra:
-    print(letra)
-print("################")
-print("################")
-for i in range(len(palabra)):
-    print(palabra[i])
-
-
+if input("Nombre de la canción: ") in playlistdelCurso:
+    print("La cancion esta en la lista")
+else:
+    print("La cancion no esta en la lista")
 

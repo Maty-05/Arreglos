@@ -9,3 +9,15 @@ if palabra == palabraReversa:
     print("Es un palindromo")
 else:
     print("No es un palindromo")
+
+print("imprimir todas las letras de una palabra")
+palabra = "GirafariG"
+for letra in palabra:
+    print(letra)
+print("################")
+print("################")
+for i in range(len(palabra)):
+    print(palabra[i])
+
+
+
