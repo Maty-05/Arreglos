@@ -41,7 +41,7 @@ Arancel = 1800000
 Matricula = 90000
 
 Promedio = float(input("Ingrese promedio: "))
-Quintil = int(input("Ingrese quintil (1 hasta el 5): "))
+Quintil = int(input("Ingrese quintil (1 al 5): "))
 
 Descuento_del_arancel = 0
 Descuento_de_la_matricula = 0
