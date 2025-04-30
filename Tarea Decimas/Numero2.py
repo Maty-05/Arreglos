@@ -37,5 +37,3 @@ Precio_final = Precio_original * (1 - Descuento_aplicado)
 print(f"Precio original: ${Precio_original:.2f}")
 print(f"Descuento aplicado: {Descuento_aplicado * 100:.0f}%")
 print(f"Precio final: ${Precio_final:.2f}")
-
-# Fin del programa
