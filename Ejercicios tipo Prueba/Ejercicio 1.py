@@ -24,9 +24,9 @@
 #Ingrese la nota del examen: 5
 #El promedio final es: 3.8
 
-ea1 = float(input("Ingrese la nota de la EA1: "))
-ea2 = float(input("Ingrese la nota de la EA2: "))
-ea3 = float(input("Ingrese la nota de la EA3: "))
+ea1 = float(input("Ingrese la nota de la ea1: "))
+ea2 = float(input("Ingrese la nota de la ea2: "))
+ea3 = float(input("Ingrese la nota de la ea3: "))
 examen = float(input("Ingrese la nota del examen: "))
 
 promedio_presentacion = (ea1 * 0.3 + ea2 * 0.4 + ea3 * 0.3) / 1
