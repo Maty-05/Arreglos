@@ -1,7 +1,7 @@
 def transformar_nota(nota):
-    if nota == 8 or nota == 9:
+    if nota in [8, 8.0, 80, 9, 9.0, 90]:
         print("Nota inválida")
-    exit()
+        exit()
     if nota > 7:
         return round(nota / 10, 1)
     return float(nota)

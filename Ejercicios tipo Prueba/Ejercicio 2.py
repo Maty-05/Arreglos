@@ -24,7 +24,7 @@ pares = 0
 impares = 0
 suma = 0
 
-for i in range(3):
+for contador in range(3):
     numero = int(input("Ingrese numero: "))
     suma += numero
     if numero % 2 == 0:
@@ -40,3 +40,4 @@ if suma > 100:
 else:
     print("La suma no es mayor a 100.")
 print("Se ingresaron", pares, "números pares.")
+print("Se ingresaron", impares, "números impares.")
